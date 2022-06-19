@@ -1,11 +1,9 @@
+import React from 'react'
 
-
-const Main = () => {
-    return(
-        <div>
-            Main
-        </div>
-    );
+function Main() {
+    return (
+        <div class="welcome">Welcome to our angular site</div>
+    )
 }
 
-export default Main;
+export default Main

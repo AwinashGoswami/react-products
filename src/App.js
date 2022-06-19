@@ -12,8 +12,8 @@ function App() {
                 <Routes>
                     <Route path='/' exact element={<Main />} />
                     <Route path='/admin/products' exact element={<Products />} />
-                    <Route path='/admin/product/create' exact element={<ProductCreate />} />
-                    <Route path='/admin/product/:id/edit' exact element={<ProductEdit />} />
+                    <Route path='/admin/products/create' exact element={<ProductCreate />} />
+                    <Route path='/admin/products/:id/edit' exact element={<ProductEdit />} />
                 </Routes>
             </BrowserRouter>
         </div>
